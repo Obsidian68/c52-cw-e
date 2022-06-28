@@ -1,0 +1,52 @@
+h1 {
+margin-left: 30px;
+}
+
+.menu a {
+margin-left: 500px;
+}
+
+.header {
+color:rgb(255, 255, 255);
+background-color: rgb(0, 166, 255);
+border: solid;
+}
+
+.header * {
+border: solid;
+}
+
+.footer {
+display: flex;
+justify-content: center;
+}
+
+.text {
+color: #ffffff;
+}
+
+body {
+background-color: #000000be;
+}
+
+a:link{
+color: #ffffff;
+}
+
+a:visited{
+color: #3cff00
+}
+
+.item { 
+ position: relative;
+} 
+
+.item p {
+position: absolute;
+top: 50%; 
+left: 50%; 
+}
+
+.item:hover img {
+opacity: 0.33;
+}
